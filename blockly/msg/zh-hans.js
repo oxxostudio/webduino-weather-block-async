@@ -1,1 +1,1 @@
-MSG.catWeather = "Weather";
+MSG.catWeather = "氣象資訊";
