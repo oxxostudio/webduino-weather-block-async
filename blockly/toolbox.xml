@@ -1,4 +1,4 @@
-<category id="catWeather">
+<category id="catWeather" COLOUR="220">
   <block type="get_weather"></block>
   <block type="get_weather_aqi"></block>
   <block type="get_weather_observe"></block>
