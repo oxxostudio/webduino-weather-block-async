@@ -101,6 +101,7 @@
   window.getWeatherQuake = function (num) {
     if (weatherData.quake) {
       let obj = weatherData.quake;
+      let result;
       if (num == '0') {
         result = obj[0];
       } else if (num == 1) {
@@ -108,7 +109,7 @@
       } else if (num == 2) {
         result = obj[0] + '、' + obj[1] + '、' + obj[2];
       }
-      return content;
+      return result;
     } else {
       return '資料格式錯誤，請選擇「地震資訊」。';
     }
