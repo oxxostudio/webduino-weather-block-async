@@ -106,6 +106,7 @@ Blockly.Blocks['get_weather_aqi'] = {
       .appendField(new Blockly.FieldDropdown([
         ["空氣品質綜合指標", "all"],
         ["空氣品質描述", "note"],
+        ["AQI", "AQI"],
         ["PM2.5", "PM25"],
         ["PM10", "PM10"],
         ["臭氧", "O3"],

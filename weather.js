@@ -37,7 +37,7 @@
       for (let i = 0; i < arr.length; i++) {
         if (arr[i].SiteName == local) {
           if (type == 'all') {
-            let replyMsg = arr[i].SiteName + '的' + arr[i].note + ' ( PM2.5：' + arr[i].PM25 + '，PM10：' + arr[i].PM10 + '，臭氧：' + arr[i].O3 + '，一氧化碳：' + arr[i].CO + '，二氧化氮：' + arr[i].NO2 + '，二氧化硫：' + arr[i].SO2 + ' )';
+            let replyMsg = arr[i].SiteName + '的' + arr[i].note + ' ( AQI：' + arr[i].AQI + '，PM2.5：' + arr[i].PM25 + '，PM10：' + arr[i].PM10 + '，臭氧：' + arr[i].O3 + '，一氧化碳：' + arr[i].CO + '，二氧化氮：' + arr[i].NO2 + '，二氧化硫：' + arr[i].SO2 + ' )';
             return replyMsg;
           } else {
             return arr[i][type];
